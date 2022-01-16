@@ -15,7 +15,7 @@ const Todos = () => {
       e.preventDefault();
       if (edit !== undefined) {
          const newEditedTodos = allTodo.map((item,index) => {
-            if (index == edit) {
+            if (index === edit) {
                return add;
             } else {
                return item;
