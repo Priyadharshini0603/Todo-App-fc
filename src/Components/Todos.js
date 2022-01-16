@@ -68,31 +68,3 @@ const Todos = () => {
    )
 }
 export default Todos; 
-
-{/* <div>
-<table>
-   <thead>
-      <tr>
-         <th>s.no</th>
-         <th>Todos</th>
-         <th>Actions</th>
-      </tr>
-   </thead>
-   <tbody>
-      {
-         allTodo.map((value, i) => {
-            return (
-               <tr>
-                  <td>{i + 1}</td>
-                  <td>{value}</td>
-                  <td>
-                     <button>Edit</button>
-                     <button>Delete</button>
-                  </td>
-               </tr>
-            )
-         })
-     }
-   </tbody>
-</table>
-</div> */}
